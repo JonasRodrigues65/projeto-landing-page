@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 100px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color:aliceblue;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px; /*significa margem de cima direita abaixo, e por ultimo a esquerda*/
+    padding: 25px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+   display: flex;
+   align-items: center;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+ 
+#titulo-carrossel{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 27px;
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top:60px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    margin: 25px;
+    font-size: 32px;
+    color: #383838;
+}
+
+input{
+    background-color: #e5ece5;
+    Width: 300px;
+    Height: 40px;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    color: #FFFFFF;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font: inter;
+    size: 16px;
+    border: 0px;
+    margin-bottom: 75px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.25s;
+}
